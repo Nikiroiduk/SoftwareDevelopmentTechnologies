@@ -8,6 +8,6 @@
 ![image](https://user-images.githubusercontent.com/33375292/144716630-4855857c-a943-4423-9c3d-15bcc2ee6123.png)
 #### gitk
 ![image](https://user-images.githubusercontent.com/33375292/144716151-218d50c4-9d1d-4bca-8760-1293629138d4.png)
-#### commit everything in master
+#### commit
 ![image](https://user-images.githubusercontent.com/33375292/144716666-5900958b-9779-4b2d-afd1-17cba53c6bb8.png)
 ## tortoiseSVN
