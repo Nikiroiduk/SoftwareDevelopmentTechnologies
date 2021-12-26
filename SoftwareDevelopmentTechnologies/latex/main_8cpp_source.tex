@@ -1,0 +1,159 @@
+\hypertarget{main_8cpp_source}{}\doxysection{main.\+cpp}
+\label{main_8cpp_source}\index{SoftwareDevelopmentTechnologies/main.cpp@{SoftwareDevelopmentTechnologies/main.cpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00001}00001 \textcolor{keywordtype}{int} main() \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00002}00002     \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00003}00003 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00004}00004 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00005}00005 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00006}00006 \textcolor{keyword}{private} \textcolor{keywordtype}{void} set\_mode(\textcolor{keywordtype}{bool} mod)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00007}00007 \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00008}00008     label1.Enabled = mod;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00009}00009     button1.Enabled = mod;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00010}00010     button2.Enabled = mod;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00011}00011     button3.Enabled = !mod;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00012}00012     button4.Enabled = !mod;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00013}00013 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00014}00014 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00015}00015 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00016}00016 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00017}00017 \textcolor{keywordflow}{return} m\_driverStatusNames[driver.Status];}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00018}00018 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00019}00019 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00020}00020 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00021}00021 uint i;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00022}00022 \textcolor{keywordflow}{if} (i == 1)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00023}00023 \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00024}00024     ...}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00025}00025 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00026}00026 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00027}00027 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00028}00028 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00029}00029 \textcolor{keywordtype}{string} destination = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00030}00030 \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} item : source) \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00031}00031     destination += item;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00032}00032 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00033}00033 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00034}00034 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00035}00035 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00036}00036 Bool IsNumber(\textcolor{keywordtype}{string} str) \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00037}00037     \textcolor{keywordflow}{for} (\textcolor{keyword}{auto} elem : str) \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00038}00038         \textcolor{keywordflow}{if} (!IsNumber(elem)) \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00039}00039             \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00040}00040         \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00041}00041     \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00042}00042     \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00043}00043 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00044}00044 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00045}00045 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00046}00046 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00047}00047 \textcolor{keywordtype}{string}[] days = Enum.GetNames(typeof(DayOfWeek));}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00048}00048 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00049}00049 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00050}00050 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00051}00051 DateTime dt = DateTime.Now;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00052}00052 Console.WriteLine(dt.ToString(\textcolor{stringliteral}{"{}-\/-\/HH:mm:ss-\/-\/"{}}));}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00053}00053 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00054}00054 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00055}00055 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00056}00056 \textcolor{keywordflow}{return} Counter != 0;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00057}00057 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00058}00058 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00059}00059 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00060}00060 \textcolor{keywordflow}{if} (Connceted == 0)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00061}00061     rez = setup();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00062}00062 f1\_end = \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00063}00063 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00064}00064 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00065}00065 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00066}00066 List<int> arr = \textcolor{keyword}{new} List<int>();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00067}00067 List<int> tmpArr = \textcolor{keyword}{new} List<int>();}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00068}00068 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < arr.Count \&\& arr[i] <= 100; i++)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00069}00069 \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00070}00070     tmpArr.Add(arr[i]);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00071}00071 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00072}00072 arr = tmpArr;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00073}00073 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00074}00074 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00075}00075 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00076}00076 var meh = sourceIDs.Split(\textcolor{keyword}{new} \textcolor{keywordtype}{char}[] \{ \textcolor{charliteral}{','} \}, StringSplitOptions.RemoveEmptyEntries);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00077}00077 sourceId = Convert.ToInt32(meh[0]);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00078}00078 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00079}00079 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00080}00080 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00081}00081 \textcolor{keyword}{public} \textcolor{keywordtype}{string} generateEMail()}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00082}00082 \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00083}00083     \textcolor{keywordtype}{string} res;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00084}00084     \textcolor{keywordtype}{string}[] meh = PersonName.split(\textcolor{charliteral}{' '});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00085}00085     res = \$\textcolor{stringliteral}{"{}\{meh[0]\}.\{meh[1]\}"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00086}00086     \textcolor{keywordflow}{if} (res.Length > 20)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00087}00087     \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00088}00088         var tmp = \textcolor{keyword}{new} \textcolor{keywordtype}{char}[20];}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00089}00089         res.CopyTo(0, tmp, 0, 20);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00090}00090         res = \textcolor{keyword}{new} string(tmp);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00091}00091     \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00092}00092     res += \textcolor{stringliteral}{"{}@domain.ua"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00093}00093     \textcolor{keywordflow}{return} res;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00094}00094 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00095}00095 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00096}00096 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00097}00097 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00098}00098 \textcolor{keywordtype}{string} GetTextDiv2(\textcolor{keywordtype}{string} text)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00099}00099 \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00100}00100     \textcolor{keywordtype}{int} mid = text.Length / 2;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00101}00101     \textcolor{keywordtype}{int} r = text.IndexOf(\textcolor{stringliteral}{"{} "{}}, mid);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00102}00102     \textcolor{keywordtype}{int} l = text.IndexOf(\textcolor{stringliteral}{"{} "{}}, 0, mid);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00103}00103     mid = r -\/ mid > l -\/ mid ? l : r;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00104}00104     \textcolor{keywordflow}{return} \$\textcolor{stringliteral}{"{}\&nbsp\{text.Substring(0, mid)\} <br/>\&nbsp\{text.Substring(mid, text.Length -\/ mid)\}"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00105}00105 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00106}00106 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00107}00107 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00108}00108 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00109}00109 \textcolor{keywordtype}{string} mailTo = ((Config.GetSetting(\textcolor{stringliteral}{"{}AdminNotifications\_EmailAddress"{}}).Length <= 0)) ?}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00110}00110     \textcolor{stringliteral}{"{}Something went wrong"{}} : Config.GetSetting(\textcolor{stringliteral}{"{}AdminNotifications\_EmailAddress"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00111}00111 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00112}00112 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00113}00113 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00114}00114 \textcolor{keyword}{public} \textcolor{keywordtype}{bool} CheckPath(\textcolor{keywordtype}{string} path)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00115}00115 \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00116}00116     var di = \textcolor{keyword}{new} DirectoryInfo(path);}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00117}00117     FileInfo[] DBFFiles = di.GetFiles(\textcolor{stringliteral}{"{}*.dbf"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00118}00118     n += DBFFiles.Length;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00119}00119     di = \textcolor{keyword}{new} DirectoryInfo(path + \textcolor{stringliteral}{"{}SCLAD\(\backslash\)\(\backslash\)"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00120}00120     DBFFiles = di.GetFiles(\textcolor{stringliteral}{"{}*.dbf"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00121}00121     n += DBFFiles.Length;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00122}00122     FileInfo[] FPTFiles = di.GetFiles(\textcolor{stringliteral}{"{}*.fpt"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00123}00123     n += FPTFiles.Length;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00124}00124     di = \textcolor{keyword}{new} DirectoryInfo(path + \textcolor{stringliteral}{"{}REAL\(\backslash\)\(\backslash\)"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00125}00125     DBFFiles = di.GetFiles(\textcolor{stringliteral}{"{}*.dbf"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00126}00126     n += FPTFiles.Length;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00127}00127     FPTFiles = di.GetFiles(\textcolor{stringliteral}{"{}*.fpt"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00128}00128     n += FPTFiles.Length;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00129}00129     di = \textcolor{keyword}{new} DirectoryInfo(path + \textcolor{stringliteral}{"{}DOSTAVKA\(\backslash\)\(\backslash\)"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00130}00130     DBFFiles = di.GetFiles(\textcolor{stringliteral}{"{}*.dbf"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00131}00131     n += FPTFiles.Length;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00132}00132     FPTFiles = di.GetFiles(\textcolor{stringliteral}{"{}*.fpt"{}});}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00133}00133     n += FPTFiles.Length;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00134}00134 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00135}00135     \textcolor{keywordflow}{if} (n == 20)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00136}00136     \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00137}00137         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00138}00138     \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00139}00139     \textcolor{keywordflow}{return} \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00140}00140 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00141}00141 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00142}00142 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00143}00143 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00144}00144 txtContacts.Text = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00145}00145 \textcolor{keywordflow}{foreach}(\textcolor{keywordtype}{string} contact \textcolor{keywordflow}{in} contacts)}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00146}00146 \{}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00147}00147     txtContacts.Text += \$\textcolor{stringliteral}{"{}\{contact\};"{}};}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00148}00148 \}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00149}00149 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00150}00150 }
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00151}00151 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00152}00152 Game1.clou = !Game1.clou;}
+\DoxyCodeLine{\Hypertarget{main_8cpp_source_l00153}00153 \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+
+\end{DoxyCode}
